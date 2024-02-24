@@ -1,4 +1,5 @@
-
+import { BrowserRouter } from "react-router-dom"
+import Navbar from "./components/navbar/Navbar"
 function App() {
 
 
@@ -6,7 +7,11 @@ function App() {
     <>
      
      
-    pppp
+  <BrowserRouter>
+  
+   <Navbar/>
+  
+  </BrowserRouter>
 
 
 
